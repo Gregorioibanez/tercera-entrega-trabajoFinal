@@ -1,0 +1,104 @@
+@import 'variables';
+@import 'mixins';
+
+
+* {
+    margin: 0px;
+    padding: 5px;
+}
+
+body {
+    background-color: map-get($mapa-colores, fondoGeneral)
+}
+
+h1 {
+    font-family: $font-title;
+    text-align: center;
+
+    .tituloPrincipal {
+        animation-delay: 1s;
+        animation-duration: 2s;
+    }
+}
+
+
+h2 {
+    font-family: $font-subtitle;
+    text-align: center;
+
+    .tituloProductos {
+        animation-delay: 1s;
+        animation-duration: 2s;
+    }
+}
+
+h3 {
+    font-family: $font-subtitle;
+    text-align: center;
+}
+
+.tituloFooter {
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+h4 {
+    font-family: $font-subtitle;
+    text-align: center;
+}
+
+h5 {
+    font-family: $font-subtitle;
+    text-align: center;
+}
+
+.textoInicio {
+    text-align: center;
+}
+
+.redes {
+    text-align: start;
+    padding: 15px;
+}
+
+.cajaContacto {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.textoContacto {
+    text-align: center;
+}
+
+.imgProducto1 {
+    @include width(390px)
+}
+
+.imgProducto2 {
+    @include width(390px)
+}
+
+.imgExtraccion1 {
+    @include width(400px)
+}
+
+.imgExtraccion2 {
+    @include width(400px)
+}
+
+.mainVideo {
+    @include width(101%)
+}
+
+li {
+    padding: 1px;
+    margin-left: 17px;
+    transition: all 1s;
+
+    &:hover {
+        background-color: map-get($mapa-colores, fondoNav);
+        padding: 2px;
+        font-size: 15px;
+    }
+}

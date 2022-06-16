@@ -1,0 +1,77 @@
+/* mapa de colores */
+/* tipografia */
+* {
+  margin: 0px;
+  padding: 5px; }
+
+body {
+  background-color: #FFB226; }
+
+h1 {
+  font-family: "pacifico";
+  text-align: center; }
+  h1 .tituloPrincipal {
+    animation-delay: 1s;
+    animation-duration: 2s; }
+
+h2 {
+  font-family: "roboto slab";
+  text-align: center; }
+  h2 .tituloProductos {
+    animation-delay: 1s;
+    animation-duration: 2s; }
+
+h3 {
+  font-family: "roboto slab";
+  text-align: center; }
+
+.tituloFooter {
+  animation-delay: 1s;
+  animation-duration: 2s; }
+
+h4 {
+  font-family: "roboto slab";
+  text-align: center; }
+
+h5 {
+  font-family: "roboto slab";
+  text-align: center; }
+
+.textoInicio {
+  text-align: center; }
+
+.redes {
+  text-align: start;
+  padding: 15px; }
+
+.cajaContacto {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px; }
+
+.textoContacto {
+  text-align: center; }
+
+.imgProducto1 {
+  width: 390px; }
+
+.imgProducto2 {
+  width: 390px; }
+
+.imgExtraccion1 {
+  width: 400px; }
+
+.imgExtraccion2 {
+  width: 400px; }
+
+.mainVideo {
+  width: 101%; }
+
+li {
+  padding: 1px;
+  margin-left: 17px;
+  transition: all 1s; }
+  li:hover {
+    background-color: lightseagreen;
+    padding: 2px;
+    font-size: 15px; }
