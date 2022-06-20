@@ -4,7 +4,7 @@
 
 * {
     margin: 0px;
-    padding: 5px;
+    padding: 3px;
 }
 
 body {
@@ -61,6 +61,11 @@ h5 {
     padding: 15px;
 }
 
+.botonRedes{
+    padding: 40px;
+}
+
+
 .cajaContacto {
     display: flex;
     justify-content: center;
@@ -93,12 +98,15 @@ h5 {
 
 li {
     padding: 1px;
-    margin-left: 16px;
+    margin-left: 6px;
     transition: all 1s;
 
     &:hover {
+        border-radius: 10%;
         background-color: map-get($mapa-colores, fondoNav);
         padding: 2px;
-        font-size: 15px;
+        font-size: 14px;
     }
 }
+
+
