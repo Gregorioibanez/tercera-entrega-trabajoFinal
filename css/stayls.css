@@ -68,9 +68,10 @@ h5 {
 .imgExtraccion2 {
   width: 400px; }
 
-.mainVideo {
-  width: 101%; }
-
+/* .mainVideo {
+    @include width(101%)
+}
+ */
 li {
   padding: 0px;
   margin-left: 7px;
