@@ -12,6 +12,7 @@ body {
 }
 
 h1 {
+    font-size: 6rem;
     font-family: $font-title;
     text-align: center;
 
@@ -93,13 +94,11 @@ h5 {
     @include width(400px)
 }
 
-/* .mainVideo {
-    @include width(101%)
-}
- */
+
+
 li {
     padding:0px;
-    margin-left: 7px;
+    /* margin-left: 7px; */
     transition: all 1s;
 
     &:hover {
