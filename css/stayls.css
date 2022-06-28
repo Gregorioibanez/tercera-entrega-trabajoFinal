@@ -67,7 +67,7 @@ li {
   transition: all 1s;
   font-size: 22px; }
   li:hover {
-    border-radius: 1%;
+    border-radius: 2%;
     background-color: #DD890E;
     padding: 2px;
     font-size: 22px; }
@@ -80,7 +80,7 @@ li {
 
 .pInicio {
   background-color: #DD890E;
-  border-radius: 50%;
+  border-radius: 3%;
   text-align: center;
   margin-top: 95px;
   margin-bottom: 90px;

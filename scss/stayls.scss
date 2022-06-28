@@ -85,7 +85,6 @@ a {
     @include width(400px)
 }
 
-.imgInicio {}
 
 
 li {
@@ -94,7 +93,7 @@ li {
     font-size: 22px;
 
     &:hover {
-        border-radius: 1%;
+        border-radius: 2%;
         background-color: map-get($mapa-colores, fondoNav);
         padding: 2px;
         font-size: 22px;
@@ -113,7 +112,7 @@ li {
 
 .pInicio {
     background-color: map-get($mapa-colores, fondoNav);
-    border-radius: 50%;
+    border-radius: 3%;
     text-align: center;
     margin-top: 95px;
     margin-bottom: 90px;
