@@ -10,7 +10,8 @@ body {
 h1 {
   font-size: 6rem;
   font-family: "pacifico";
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
   h1 .tituloPrincipal {
     animation-delay: 1s;
     animation-duration: 2s; }
@@ -41,14 +42,6 @@ h5 {
 .textoInicio {
   text-align: center; }
 
-.redes {
-  text-align: start;
-  padding: 15px;
-  margin-left: 15px; }
-
-.botonRedes {
-  padding: 38px; }
-
 .cajaContacto {
   display: flex;
   justify-content: center;
@@ -71,10 +64,24 @@ h5 {
 
 li {
   padding: 0px;
-  /* margin-left: 7px; */
-  transition: all 1s; }
+  transition: all 1s;
+  font-size: 22px; }
   li:hover {
     border-radius: 10%;
     background-color: #DD890E;
     padding: 2px;
-    font-size: 14px; }
+    font-size: 22px; }
+
+.barraNav {
+  margin-top: 50px; }
+
+.mainInicio {
+  margin-top: 30px; }
+
+.pInicio {
+  background-color: #DD890E;
+  border-radius: 15%;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 1rem; }
