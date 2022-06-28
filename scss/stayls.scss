@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 9vw;
     font-family: $font-title;
     text-align: center;
     margin-top: 20px;
@@ -54,11 +54,6 @@ h5 {
     text-align: center;
 }
 
-.textoInicio {
-    text-align: center;
-}
-
-
 
 .cajaContacto {
     display: flex;
@@ -68,6 +63,10 @@ h5 {
 
 .textoContacto {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .imgProducto1 {
@@ -86,15 +85,16 @@ h5 {
     @include width(400px)
 }
 
+.imgInicio {}
 
 
 li {
-    padding:0px;
+    padding: 0px;
     transition: all 1s;
     font-size: 22px;
 
     &:hover {
-        border-radius: 10%;
+        border-radius: 1%;
         background-color: map-get($mapa-colores, fondoNav);
         padding: 2px;
         font-size: 22px;
@@ -103,19 +103,19 @@ li {
 
 
 
-.barraNav{
+.barraNav {
     margin-top: 50px;
 }
 
-.mainInicio{
+.mainInicio {
     margin-top: 30px;
 }
 
-.pInicio{
+.pInicio {
     background-color: map-get($mapa-colores, fondoNav);
-    border-radius: 15%;
+    border-radius: 50%;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 95px;
+    margin-bottom: 90px;
     font-size: 1rem;
 }
