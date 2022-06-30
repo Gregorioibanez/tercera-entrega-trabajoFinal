@@ -18,18 +18,17 @@ h1 {
 
 h2 {
   font-family: "roboto slab";
-  text-align: center; }
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px; }
   h2 .tituloProductos {
     animation-delay: 1s;
-    animation-duration: 2s; }
+    animation-duration: 2s;
+    margin-top: 20px; }
 
 h3 {
   font-family: "roboto slab";
   text-align: center; }
-
-.tituloFooter {
-  animation-delay: 1s;
-  animation-duration: 2s; }
 
 h4 {
   font-family: "roboto slab";
@@ -42,7 +41,13 @@ h5 {
 .cajaContacto {
   display: flex;
   justify-content: center;
-  margin-left: 30px; }
+  margin-top: 10px;
+  text-align: center;
+  color: black; }
+
+.colorCajaContacto {
+  background-color: #DD890E;
+  color: black; }
 
 .textoContacto {
   text-align: center; }
@@ -51,15 +56,19 @@ a {
   text-decoration: none; }
 
 .imgProducto1 {
+  border-radius: 7%;
   width: 390px; }
 
 .imgProducto2 {
+  border-radius: 7%;
   width: 390px; }
 
 .imgExtraccion1 {
+  border-radius: 7%;
   width: 400px; }
 
 .imgExtraccion2 {
+  border-radius: 7%;
   width: 400px; }
 
 li {

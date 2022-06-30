@@ -27,10 +27,13 @@ h1 {
 h2 {
     font-family: $font-subtitle;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
     .tituloProductos {
         animation-delay: 1s;
         animation-duration: 2s;
+        margin-top: 20px;
     }
 }
 
@@ -39,10 +42,6 @@ h3 {
     text-align: center;
 }
 
-.tituloFooter {
-    animation-delay: 1s;
-    animation-duration: 2s;
-}
 
 h4 {
     font-family: $font-subtitle;
@@ -58,7 +57,14 @@ h5 {
 .cajaContacto {
     display: flex;
     justify-content: center;
-    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.colorCajaContacto {
+    background-color: map-get($mapa-colores, fondoNav);
+    color: black;
 }
 
 .textoContacto {
@@ -70,18 +76,22 @@ a {
 }
 
 .imgProducto1 {
+    border-radius: 7%;
     @include width(390px)
 }
 
 .imgProducto2 {
+    border-radius: 7%;
     @include width(390px)
 }
 
 .imgExtraccion1 {
+    border-radius: 7%;
     @include width(400px)
 }
 
 .imgExtraccion2 {
+    border-radius: 7%;
     @include width(400px)
 }
 
@@ -99,7 +109,6 @@ li {
         font-size: 22px;
     }
 }
-
 
 
 .barraNav {
