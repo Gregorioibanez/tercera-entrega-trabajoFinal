@@ -56,20 +56,32 @@ a {
   text-decoration: none; }
 
 .imgProducto1 {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
   border-radius: 7%;
-  width: 390px; }
+  width: 350px; }
 
 .imgProducto2 {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
   border-radius: 7%;
-  width: 390px; }
+  width: 350px; }
 
 .imgExtraccion1 {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
   border-radius: 7%;
-  width: 400px; }
+  width: 350px; }
 
 .imgExtraccion2 {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
   border-radius: 7%;
-  width: 400px; }
+  width: 350px; }
 
 li {
   padding: 0px;

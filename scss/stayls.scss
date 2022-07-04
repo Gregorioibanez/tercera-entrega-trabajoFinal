@@ -76,23 +76,36 @@ a {
 }
 
 .imgProducto1 {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
     border-radius: 7%;
-    @include width(390px)
+    @include width(350px)
 }
 
+
 .imgProducto2 {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
     border-radius: 7%;
-    @include width(390px)
+    @include width(350px)
 }
 
 .imgExtraccion1 {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
     border-radius: 7%;
-    @include width(400px)
+    @include width(350px)
 }
 
 .imgExtraccion2 {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
     border-radius: 7%;
-    @include width(400px)
+    @include width(350px)
 }
 
 
