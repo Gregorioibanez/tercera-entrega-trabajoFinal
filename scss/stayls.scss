@@ -104,10 +104,21 @@ a {
     display: block;
     margin: 0px auto;
     text-align: center;
+    border-radius: 8%;
+    @include width(350px)
+}
+
+.imgExtraccion3 {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
     border-radius: 7%;
     @include width(350px)
 }
 
+.imgNutricion {
+    width: 10px;
+}
 
 
 li {
