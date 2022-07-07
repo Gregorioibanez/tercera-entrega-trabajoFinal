@@ -90,6 +90,11 @@ a {
   border-radius: 7%;
   width: 350px; }
 
+.videoMiel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px; }
+
 .imgNutricion {
   width: 10px; }
 
