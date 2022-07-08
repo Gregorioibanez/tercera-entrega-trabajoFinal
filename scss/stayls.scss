@@ -112,18 +112,27 @@ a {
     display: block;
     margin: 0px auto;
     text-align: center;
-    border-radius: 7%;
+    border-radius: 8%;
+    margin-bottom: 50px;
     @include width(350px)
 }
 
 .videoMiel{
-
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 7%;
     margin-bottom: 80px;
 }
 
 
 .imgNutricion {
-    width: 10px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 7%;
+    margin-bottom: 80px;
+    @include width(350px)
 }
 
 
